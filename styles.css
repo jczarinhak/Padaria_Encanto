@@ -1,0 +1,173 @@
+.content-main{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+.content-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-ul{
+    list-style: none;
+    
+
+}
+.content-li{
+    display: inline;
+    margin-right: 20px;
+}
+.content-link{
+    text-decoration:none ;
+    color: skyblue;
+}
+
+#home {
+    background-image: url('Padaria-home.jpg');
+    background-size: cover;
+    text-align:center;
+    padding: 13rem ;
+    width: 1300;
+    height: 600;
+}
+.content-banner h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    image-rendering: auto;
+}
+.content-banner p{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    image-rendering: auto;
+}
+.content-sec{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+#paes .produto-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+#paes h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    image-rendering: auto;
+    text-align: center;
+
+}
+#paes li{
+    flex: 1;
+    text-align: justify;
+    border-radius: 10px;   
+}
+#paes h3{
+    color:midnightblue;
+}
+#paes p{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      font-size: 16px;
+      border-radius: 10xp;
+}
+#cafes .produto-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    border-radius: 10px;
+}
+#cafes h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    image-rendering: auto;
+    text-align: center;
+}
+#cafes li{
+    flex: 1;
+    text-align: justify;
+    border-radius: 10px;   
+}
+#cafes h3 {
+    color: midnightblue; 
+}
+#cafes p {
+   
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 16px;
+    border-radius: 10xp;
+}
+#pasteis .produto-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 200px;
+}
+#pasteis li{
+    flex: 1;
+    text-align: justify;
+    border-radius: 10px;  
+}
+#pasteis h3{
+    color: midnightblue;
+}
+#pasteis h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    image-rendering: auto;
+    text-align: center;
+}
+#pasteis p{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#bolos .produto-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 200px;
+   
+}
+#bolos h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    image-rendering: auto;
+    text-align: center;
+}
+#bolos li{
+    flex: 5rem;
+    text-align: justify;
+    width: calc(70% - 100%);
+}
+#bolos h3{
+    color: midnightblue;
+}
+#bolos p{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+}
+#sobre h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px midnightblue;
+    text-align: center;
+   
+}
+#sobre p{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.content-footer{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
