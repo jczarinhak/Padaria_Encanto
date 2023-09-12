@@ -13,7 +13,6 @@
     text-align: center;
     padding: 10px;
 }
-
 .content-ul{
     list-style: none;
     
@@ -50,9 +49,11 @@
     text-align: center;
     font-family: Arial, sans-serif;
     
-}
+}   
 #paes .produto-lista{
-    display: flex;
+    background-color: black;
+    padding: 10px; 
+    display: flex; 
     flex-wrap: wrap;
     gap: 20px;
     border-radius: 10px;
@@ -80,7 +81,9 @@
       border-radius: 10xp;
 }
 #cafes .produto-lista{
-    display: flex;
+    background-color: black;
+    padding: 10px; 
+    display: flex; 
     flex-wrap: wrap;
     gap: 70px;
     border-radius: 10px;
@@ -107,6 +110,8 @@
     border-radius: 10xp;
 }
 #pasteis .produto-lista{
+    background-color: black;
+    padding: 10px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -131,7 +136,10 @@
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 #bolos .produto-lista{
-    display: flex;
+    background-color: black;
+    padding: 10px; 
+    display: flex; 
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 200px;
@@ -156,6 +164,48 @@
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
    
 }
+#hamburgers .produto-lista{
+    background-color: black;
+    padding: 10px; 
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 200px;
+}
+#hamburgers h2{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    image-rendering: auto;
+    text-align: center;
+}
+#hamburgers li{
+    flex: 1;
+    text-align: justify;
+    border-radius: 10px;  
+}
+#hamburgers h3{
+    color: midnightblue;
+}
+#hamburgers p{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#sobre .icard-contado{
+    background-color: black;
+    padding: 10px; 
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 200px;
+}
+#sobre li{
+    flex: 1;
+    text-align: justify;
+    border-radius: 10px;   
+
+}
 #sobre h2 {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px midnightblue;
@@ -163,6 +213,9 @@
    
 }
 #sobre p{
+    background-color: black;
+    padding: 10px; 
+    display: flex; 
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
